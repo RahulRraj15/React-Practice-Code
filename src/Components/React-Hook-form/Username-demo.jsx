@@ -28,7 +28,7 @@ export function UserNamevalidation() {
               message: "Maximum age is 8",
             },
             validate: (data) => {
-              if(data.trim()=="") return "white Space is not allow";
+              if (data.trim() == "") return "white Space is not allow";
               return true;
             },
           })}
@@ -82,3 +82,6 @@ onChange
 onBlur
 deps
  */
+/**git add .
+git commit -m "added login form"
+git push */
