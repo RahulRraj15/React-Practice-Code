@@ -7,6 +7,7 @@ export function ReactHookForm() {
   } = useForm();
   function submitData(data) {
     console.log(data);
+    alert("form submited")
   }
   return (
     <div className="d-flex justify-content-center p-2">
